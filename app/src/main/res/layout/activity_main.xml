@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+
+        <!--<RelativeLayout-->
+            <!--android:id="@+id/rl_video_play_content"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="match_parent">-->
+
+            <com.zonekey.ijkplayer_view.widget.IjkVideoView
+                android:id="@+id/ijkplayerview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <!--<master.flame.danmaku.ui.widget.DanmakuView-->
+                <!--android:id="@+id/danmuu_video_play"-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent" />-->
+        <!--</RelativeLayout>-->
+    </FrameLayout>
+</LinearLayout>
